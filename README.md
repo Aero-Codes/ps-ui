@@ -4,6 +4,9 @@ A single resource made up of several smaller, UI-related scripts for use in your
 
 ![image](https://user-images.githubusercontent.com/82112471/175300175-6d6f926f-b3e2-42d3-b564-2e52e737d6c2.png)
 
+## Notification
+![image](https://i.imgur.com/BKmeBlB.png)
+
 ## Circle Minigame
 
 ```
@@ -15,7 +18,8 @@ exports['ps-ui']:Circle(function(success)
 	end
 end, 2, 20) -- NumberOfCircles, MS
 ```
-![image](https://user-images.githubusercontent.com/70592880/174923967-49718d68-a71d-4df7-8664-a210bee0d1a5.png)
+![image](https://i.imgur.com/STW3xgo.png)
+![image](https://i.imgur.com/EmWQO36.png)
 
 ## Number Maze
 ```
@@ -87,84 +91,10 @@ exports['ps-ui']:StatusHide()
 ![image](https://user-images.githubusercontent.com/7463741/170587637-57217095-29ab-460e-9933-123fb0500e12.png)
 
 ## Menus
-```
-exports['ps-ui']:CreateMenu({
-        {
-            header = "header1",
-            text = "text1",
-            icon = "fa-solid fa-circle",
-            color = "red",
-            event = "event:one",
-            args = {
-                1,
-                "two",
-                "3",
-            },
-            server = false,
-
-        },
-        {
-            header = "header2",
-            text = "text3",
-            icon = "fa-solid fa-circle",
-            color = "blue",
-            event = "event:two",
-            args = {
-                1,
-                "two",
-                "3",
-            },
-            server = false,
-        },
-        {
-            header = "header3",
-            text = "text3",
-            icon = "fa-solid fa-circle",
-            color = "green",
-            event = "event:three",
-            args = {
-                1,
-                "two",
-                "3",
-            },
-            server = true,
-        },
-        {
-            header = "header4",
-            text = "text4",
-            event = "event:four",
-            args = {
-                1,
-                "two",
-                "3",
-            },
-        },
-    })
-```
-![image](https://user-images.githubusercontent.com/7463741/170587722-4dca53b1-c2b2-43a9-990e-37bafb202a7e.png)
+![image](https://i.imgur.com/bQIirwJ.png)
 
 ## Input
-
-```
-local input = exports['ps-ui']:Input({
-        title = "Test",
-        inputs = {
-            {
-                type = "text",
-                placeholder = "test2"
-            },
-            {
-                type = "password",
-                placeholder = "password"
-            },
-            {
-                type = "number",
-                placeholder = "666"
-            },
-        }
-    })
-```
-![image](https://user-images.githubusercontent.com/7463741/170587795-236d2826-c510-4622-9580-dc2cd3bf1902.png)
+![image](https://i.imgur.com/u9CLuw9.png)
 
 ## Show Image
 
